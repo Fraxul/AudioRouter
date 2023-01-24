@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AudioRouter", "AudioRouter.vcxproj", "{FCA5A7A5-7EDE-40D2-B7A7-CAE1693A119F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AudioRouterInjector", "AudioRouterInjector\AudioRouterInjector.vcxproj", "{0D7DFC3D-ECB8-4F51-B670-E2479101A80B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCA5A7A5-7EDE-40D2-B7A7-CAE1693A119F}.Debug|x64.ActiveCfg = Debug|x64
+		{FCA5A7A5-7EDE-40D2-B7A7-CAE1693A119F}.Debug|x64.Build.0 = Debug|x64
+		{FCA5A7A5-7EDE-40D2-B7A7-CAE1693A119F}.Debug|x86.ActiveCfg = Debug|Win32
+		{FCA5A7A5-7EDE-40D2-B7A7-CAE1693A119F}.Debug|x86.Build.0 = Debug|Win32
+		{FCA5A7A5-7EDE-40D2-B7A7-CAE1693A119F}.Release|x64.ActiveCfg = Release|x64
+		{FCA5A7A5-7EDE-40D2-B7A7-CAE1693A119F}.Release|x64.Build.0 = Release|x64
+		{FCA5A7A5-7EDE-40D2-B7A7-CAE1693A119F}.Release|x86.ActiveCfg = Release|Win32
+		{FCA5A7A5-7EDE-40D2-B7A7-CAE1693A119F}.Release|x86.Build.0 = Release|Win32
+		{0D7DFC3D-ECB8-4F51-B670-E2479101A80B}.Debug|x64.ActiveCfg = Debug|x64
+		{0D7DFC3D-ECB8-4F51-B670-E2479101A80B}.Debug|x64.Build.0 = Debug|x64
+		{0D7DFC3D-ECB8-4F51-B670-E2479101A80B}.Debug|x86.ActiveCfg = Debug|Win32
+		{0D7DFC3D-ECB8-4F51-B670-E2479101A80B}.Debug|x86.Build.0 = Debug|Win32
+		{0D7DFC3D-ECB8-4F51-B670-E2479101A80B}.Release|x64.ActiveCfg = Release|x64
+		{0D7DFC3D-ECB8-4F51-B670-E2479101A80B}.Release|x64.Build.0 = Release|x64
+		{0D7DFC3D-ECB8-4F51-B670-E2479101A80B}.Release|x86.ActiveCfg = Release|Win32
+		{0D7DFC3D-ECB8-4F51-B670-E2479101A80B}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D167E146-5FE2-41B7-B359-36A89FA2CCCC}
+	EndGlobalSection
+EndGlobal
