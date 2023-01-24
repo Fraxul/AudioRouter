@@ -74,6 +74,7 @@ int wmain(int argc, wchar_t* argv[]) {
     printf("Routes audio from source to target.\n");
     printf("If source is an imagename, routing will automatically be (re)attached when the process starts.\n");
     printf("Image names are EXE filenames, like \"notepad.exe\"\n");
+    return -1;
   }
 
 
