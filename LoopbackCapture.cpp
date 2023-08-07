@@ -74,6 +74,10 @@ void CLoopbackCapture::SelectAudioDevice() {
     OutputDebugStringA(buf);
 
     if (m_audioOutputDevice == nullptr) {
+      if (lstrcmpW(deviceFriendlyName.pwszVal, L"Speakers (NVIDIA Broadcast)") == 0) {
+        OutputDebugStringA("  - Skipping NVIDIA Broadcast device.");
+        continue;
+      }
       if (lstrcmpW(deviceIdStr.get(), defaultAudioEndpointIdStr.get()) != 0) {
         OutputDebugStringA("  - Using this endpoint, since it's the first non-default render device available.");
         m_audioOutputDevice = device;
